@@ -1,4 +1,4 @@
-#Tb-seq data processing
+# Tb-seq data processing
 
 This processing pipeline is adapted from Sexton AN, Wang PY, Rutenberg-Schoenberg M, Simon MD. Interpreting Reverse Transcriptase Termination and Mutation Events for Greater Insight into the Chemical Probing of RNA. Biochemistry. 2017 Sep 5;56(35):4713-4721. doi: 10.1021/acs.biochem.7b00323. Epub 2017 Aug 18. PMID: 28820243; PMCID: PMC5648349. 
 
