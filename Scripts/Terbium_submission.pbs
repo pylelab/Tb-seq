@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --partition=general
+#SBATCH --job-name=Terbium
+#SBATCH --ntasks=1 --nodes=1
+#SBATCH --mem-per-cpu=64000
+#SBATCH --time=24:00:00
+
+# This should take the form of: 
+# for item in [your_library_names_or_IDs]
+# do 
+# 	sh TSS.sh ./configs/"$item"[your_config_file_extension].csv "$item"[name_of_output_folder_and_files]
+# done
+
+# ALSO: change the file output in conf.py to match your sample/library name
+
+for item in Terbium[insert config file name]
+do
+
+     sh Terbium_submission.sh ./configs/"$item"config.csv "$item"
+done
